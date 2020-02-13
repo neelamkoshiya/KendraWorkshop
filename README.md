@@ -172,3 +172,59 @@ Replace the existing trust relationship with the following:
 }
 ```
 Choose Update trust policy.
+
+### Lets Get started with Kendra
+
+#### Step 1: To create an index (Console)
+
+Choose Create index to start creating a new index.
+
+In Specify index details, give your index a name and a description.
+
+In IAM role choose Create a new role and then give the role a name. The IAM role will have the prefix "AmazonKendra-".
+
+Choose Create.
+
+Wait for your index to be created. Kendra provisions the hardware for your index. This operation can take some time.
+
+#### Step 2: To add a data source to an index (Console)
+
+From Getting started choose Add data sources.
+
+In Select data source type choose Amazon S3.
+
+In Name data source give your data source a name and a description and then choose Next.
+
+In Configure S3 connector, enter the name of the S3 bucket that contains the files that you want to index. Leave the metadata and access control fields blank. In the IAM role field, choose Create a new role and then give the role a name. The IAM role will have the prefix "AmazonKendra-".
+
+In Set sync run schedule choose how often you want your the index to synchronize the data source.
+
+Choose Next. Review the configuration of your data source. If everything looks correct, choose Create.
+
+Wait for your data source to be created.
+
+#### Step 3: Synchronize your index with your data source (Console)
+
+After your data source is created, choose Sync now to start synchronizing your data base with your index.
+
+Wait for the synchronization to complete. The time that it takes depends on the number of documents that you are indexing.
+
+Since this is the first time that you have synchronized this data source, the number of new or updated documents in the sync run history should be the same as the number of documents in your repository. If you have trouble indexing your data source, see Troubleshooting.
+
+#### Step 4: To search an index (Console)
+
+In the navigation pane, choose Search console
+
+Enter a search term that's appropriate for your index. The top results and top document results are shown.
+
+#### Step 5: To deploy a search page to your Web site
+
+From the left menu, choose Search console.
+
+Enter a query in the search box hit Enter.
+
+From the right menu, choose the code symbol (</>).
+
+Hover over one of the three sections on the page to see a description of the section.
+
+Choose a link to read more about deploying a search box on your Web site.
