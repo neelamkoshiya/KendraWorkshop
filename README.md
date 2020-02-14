@@ -1,4 +1,6 @@
 # KendraWorkshop
+Amazon Kendra is a highly accurate and easy to use enterprise search service that’s powered by machine learning. Kendra delivers powerful natural language search capabilities to your websites and applications so your end users can more easily find the information they need within the vast amount of content spread across your company.
+
 This is a step by step guide to set up Amazon Kendra 
 
 ## Prerequisite
