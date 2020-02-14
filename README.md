@@ -2,16 +2,14 @@
 This is a step by step guide to set up Amazon Kendra 
 
 ## Prerequisite
-1) Create an AWS account and an AWS Identity and Access Management user, as specified in Sign Up for AWS. If you already dont have it created yet. Else you can just login into the account. 
+1) Create an AWS account and an AWS Identity and Access Management user, as specified in [Sign Up for AWS](https://docs.aws.amazon.com/kendra/latest/dg/setup.html#aws-kendra-set-up-aws-account). If you already dont have it created yet. Else you can just login into the account. 
 
 2) Create an S3 bucket in the same region that you are using Amazon Kendra. For instructions, see Creating and Configuring an S3 Bucket in the Amazon Simple Storage Service Console User Guide.
 
 3) Upload your documents to your S3 bucket. The Test Data can be found here : [Test Data](https://github.com/neelamkoshiya/KendraWorkshop/tree/master/TestData)
 
 
-For instructions, see Uploading, Downloading, and Managing Objects in the Amazon Simple Storage Service Console User Guide.
-
-If you are using the console to get started, do Getting Started with the Console. If you are using the AWS CLI or the SDK, you need to create IAM roles and polices for Kendra to use to access resources.
+For instructions, see [Uploading, Downloading, and Managing Objects in the Amazon Simple Storage Service Console User Guide](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/create-configure-bucket.html).
 
 4) To create IAM roles and policies for Kendra
 
