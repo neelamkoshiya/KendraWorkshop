@@ -6,7 +6,8 @@ This is a step by step guide to set up Amazon Kendra
 
 2) Create an S3 bucket in the same region that you are using Amazon Kendra. For instructions, see Creating and Configuring an S3 Bucket in the Amazon Simple Storage Service Console User Guide.
 
-3) Upload your documents to your S3 bucket.
+3) Upload your documents to your S3 bucket. The Test Data can be found here : ![Test Data](https://github.com/neelamkoshiya/KendraWorkshop/tree/master/TestData)
+
 
 For instructions, see Uploading, Downloading, and Managing Objects in the Amazon Simple Storage Service Console User Guide.
 
